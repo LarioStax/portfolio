@@ -5,6 +5,7 @@ body {
 	color: hsl(198, 97%, 84%);
 	/*color: hsl(198, 97%, 34%);*/
 	font-family: "Yatra One";
+	cursor: default;
 }
 
 nav {
@@ -27,8 +28,8 @@ nav {
 a {
 	color: hsla(198, 97%, 84%);
 	text-decoration: none;
-}
 
+}
 a:hover {
 
 	color: hsl(198, 97%, 14%);
@@ -110,7 +111,7 @@ img {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	align-items: center;
+	align-items: baseline;
 }
 
 .project-tile {
